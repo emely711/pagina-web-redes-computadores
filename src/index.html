@@ -8,16 +8,25 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Roboto:wght@400;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="./src/css/normalize.css">
-    <link rel="stylesheet" href="./src/css/styles.css">
+    <link rel="stylesheet" href="./CSS/normalize.css">
+    <link rel="stylesheet" href="./CSS/styles.css">
     <link rel="shortcut icon" href="https://cdn-icons-png.flaticon.com/512/877/877669.png" type="image/x-icon">
-    
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap');
+    </style>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&family=Poppins:wght@400;500&family=Roboto:wght@900&display=swap');
+    </style>
 </head>
 
 <body>
 
     <header>
         <nav>
+            <svg width="62" height="62" viewBox="0 0 62 62" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M10.3333 15.5H51.6667V41.3333H10.3333M51.6667 46.5C53.0369 46.5 54.3511 45.9557 55.32 44.9867C56.289 44.0178 56.8333 42.7036 56.8333 41.3333V15.5C56.8333 14.1297 56.289 12.8156 55.32 11.8466C54.3511 10.8777 53.0369 10.3333 51.6667 10.3333H10.3333C7.46583 10.3333 5.16667 12.6325 5.16667 15.5V41.3333C5.16667 42.7036 5.71101 44.0178 6.67995 44.9867C7.64889 45.9557 8.96305 46.5 10.3333 46.5H0V51.6667H62V46.5H51.6667Z" fill="black"/>
+</svg>
+
             <h1>Curso Redes de Computadoras</h1>
             <ul>
                 <li><a href="#sobre-nosotros">Sobre Nosotros</a></li>
@@ -27,21 +36,33 @@
             </ul>
         </nav>
     </header>
-
-    <main>
+<main>
         <section id="intro">
             <h2>Aprende redes de computadoras</h2>
-            <p>Explora los temas paso a paso con recursos interactivos y personalizados.</p>
+            <p>Explora todos los temas, paso a paso, con recursos interactivos y personalizados.
+
+Ya sea tu primera vez o estas reforzando conocimientos, aqui encontraras todo lo que necesitas para dominar la asignatura.</p>
             <img src="images/lapto.png" alt="lapto.png ">
             <button>VER TEMARIO</button>
         </section>
     </main>
 
-    <section id="about">
-        <h2>¿Quiénes somos?</h2>
-        <img src="images/compañerismo.png" alt="compañerismo.png">
-    </section>
+    <section id="quienes-somos">
+        <div class="contenedor-quienes">
+            
+            <div class="texto-quienes">
+                <h2>¿Quiénes somos?</h2>
+                <p>Somos una plataforma educativa que permite a los estudiantes consultar el temario completo de sus materias de forma clara y organizada, facilitando su aprendizaje y preparación académica.</p>
+                <p>Buscamos brindar una experiencia sencilla e intuitiva, donde el estudiante pueda explorar contenidos, reforzar conocimientos y avanzar a su propio ritmo.</p>
+            </div>
+            
+            <div class="imagen-quienes">
+                <img src="images/compañerismo.png" alt="compañerismo">
+            </div>
 
+        </div>
+   <!-- 
+    </section>
     <section id="temario">
         <h2>Temario del semestre</h2>
         <ul>
@@ -122,7 +143,8 @@
         <img src="./images/saludo.png" alt="saludo.png">
 
     </footer>
-
+-->
 </body>
 </html>
+
 
